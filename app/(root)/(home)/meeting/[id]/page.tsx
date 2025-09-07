@@ -2,7 +2,7 @@
 
 function MeetingRooms({params : {id }} : {params : {id : string}}) {
     return (
-        <div>MeetingRooms : {id} </div>
+        <div className="bg-red-600">MeetingRooms : {id} </div>
     )
 }
 
